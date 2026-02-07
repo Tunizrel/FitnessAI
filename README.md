@@ -49,6 +49,13 @@ The `Preprocessing_data.ipynb` notebook handles:
 
 ### 2. Model Training
 The `deep_learning/CNN_plank.ipynb` notebook implements:
+
+
+- **Keypoint-Based Features**:
+  - 17 body landmarks × 3 coordinates (X, Y, Z) = 51 features
+  - Normalized coordinates for scale invariance
+  - StandardScaler preprocessing
+
 - **CNN Architecture**:
   - Input: 224x224x3 RGB images
   - 2 Convolutional layers (32 and 64 filters)
@@ -135,11 +142,6 @@ Example metrics from training:
 - [ ] Progress tracking and analytics
 - [ ] Multi-user support
 
-
-### Keypoint-Based Features
-- 17 body landmarks × 3 coordinates (X, Y, Z) = 51 features
-- Normalized coordinates for scale invariance
-- StandardScaler preprocessing
 
 
 ## 📄 License
